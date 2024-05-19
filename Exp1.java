@@ -37,6 +37,9 @@ class Exp1 {
                     if (currentChar == 'a') {
                         q = 1;
                     }
+                    else {
+                        q=0;
+                    }
                     break;
             }
             System.out.println("q" + prevState + " --> " + "q" + q + " with input '" + currentChar + "'");
